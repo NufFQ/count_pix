@@ -1,8 +1,7 @@
 import os, shutil
 from get_pix import get_image
-from fastapi import FastAPI, Request, UploadFile
+from fastapi import FastAPI, UploadFile
 from fastapi.responses import HTMLResponse
-from fastapi.staticfiles import StaticFiles
 import uvicorn
 app = FastAPI()
 
